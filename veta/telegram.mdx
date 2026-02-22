@@ -1,0 +1,68 @@
+---
+title: "Telegram 연동"
+description: "Telegram에서 ClawOnPhone AI 봇을 연결하고 사용하는 방법을 안내합니다."
+---
+
+## Telegram에서도 Veta를 사용할 수 있어요
+
+이미 Telegram을 사용하고 계신다면, 메신저를 바꿀 필요 없이 Telegram에서 바로 Veta AI 봇을 이용할 수 있습니다.
+
+Telegram은 전 세계적으로 널리 쓰이는 무료 메신저 앱입니다. 앱스토어나 플레이스토어에서 "Telegram"을 검색해 설치할 수 있습니다.
+
+## Telegram 연결하기
+
+ClawOnPhone 계정과 Telegram을 연결하는 5단계입니다.
+
+<Steps>
+  <Step title="Telegram에서 봇 검색">
+    Telegram 앱을 열고, 상단 검색창에 **@clawOnPhoneBot**을 입력하여 검색합니다. 검색 결과에서 ClawOnPhone Bot을 선택해 주세요.
+  </Step>
+  <Step title="/start 명령 입력">
+    봇 채팅방에 들어가면 하단에 **시작** 버튼이 보입니다. 버튼을 누르거나 **/start**를 직접 입력해 주세요. 봇이 환영 메시지와 함께 페어링 안내를 보내줍니다.
+  </Step>
+  <Step title="ClawOnPhone에서 페어링 코드 생성">
+    ClawOnPhone PWA 앱을 열고, 화면의 **TG 버튼**을 눌러주세요. 6자리 페어링 코드가 생성됩니다. 이 코드는 5분간 유효합니다.
+  </Step>
+  <Step title="Telegram에서 페어링 코드 입력">
+    Telegram의 ClawOnPhone Bot 채팅방으로 돌아가서, **/pair 코드6자리**를 입력합니다. 예를 들어 코드가 A3B7K9라면 **/pair A3B7K9**이라고 입력합니다.
+  </Step>
+  <Step title="연결 완료">
+    "연결이 완료되었습니다"라는 메시지가 나타나면 성공입니다. 이제 Telegram에서 Veta에게 바로 메시지를 보낼 수 있습니다.
+  </Step>
+</Steps>
+
+## 사용 방법
+
+연결이 완료되면, Telegram의 ClawOnPhone Bot 채팅방에서 **자연어로 메시지**를 보내면 됩니다.
+
+ClawTalk에서 Veta에게 말하는 것과 동일하게 사용할 수 있습니다. "오늘 일정 알려줘", "안 읽은 메일 확인해줘"처럼 평소 말하듯 입력하세요.
+
+Veta가 요청을 처리하는 동안 잠시 기다리면, 결과를 텍스트로 답변해 줍니다.
+
+## 주요 명령어
+
+<CardGroup cols={2}>
+  <Card title="/start" icon="play">
+    봇을 처음 시작할 때 사용합니다. 환영 메시지와 사용 안내를 받을 수 있습니다.
+  </Card>
+  <Card title="/pair 코드" icon="link">
+    ClawOnPhone 계정과 Telegram을 연결할 때 사용합니다. ClawOnPhone에서 생성한 페어링 코드를 함께 입력합니다.
+  </Card>
+  <Card title="/status" icon="circle-check">
+    현재 연결 상태를 확인합니다. 계정이 정상적으로 연결되어 있는지 확인할 때 사용하세요.
+  </Card>
+  <Card title="/help" icon="circle-question">
+    사용 가능한 명령어 목록과 도움말을 보여줍니다.
+  </Card>
+  <Card title="/clear" icon="rotate">
+    대화 기록을 초기화합니다. Veta가 이전 대화를 잊고 새로운 대화를 시작합니다.
+  </Card>
+</CardGroup>
+
+<Note>
+  Google 관련 도구(이메일, 일정, 파일 등)를 Telegram에서 사용하려면, **ClawOnPhone 앱**에서 먼저 Google 계정을 연결해야 합니다. ClawOnPhone을 열고 화면의 **G 버튼**을 눌러 연결해 주세요.
+</Note>
+
+<Tip>
+  Telegram 연결은 한 번만 하면 됩니다. 이후에는 Telegram을 열고 ClawOnPhone Bot에게 바로 메시지를 보내면 됩니다.
+</Tip>
