@@ -17,192 +17,252 @@
       {
         "language": "ko",
         "default": true,
-        "groups": [
+        "tabs": [
           {
-            "group": "시작하기",
-            "pages": [
-              "getting-started/introduction",
-              "getting-started/install-pwa",
-              "getting-started/first-login"
+            "tab": "ClawOnPhone",
+            "groups": [
+              {
+                "group": "시작하기",
+                "pages": [
+                  "getting-started/introduction",
+                  "getting-started/install-pwa",
+                  "getting-started/first-login"
+                ]
+              },
+              {
+                "group": "음성 대화",
+                "pages": [
+                  "clawonphone/voice-talk",
+                  "clawonphone/session-history",
+                  "clawonphone/notifications"
+                ]
+              },
+              {
+                "group": "Google Workspace",
+                "pages": [
+                  "clawonphone/google-connect",
+                  "clawonphone/gmail",
+                  "clawonphone/calendar",
+                  "clawonphone/files-docs",
+                  "clawonphone/contacts-sms",
+                  "clawonphone/web-search"
+                ]
+              },
+              {
+                "group": "고급 기능",
+                "pages": [
+                  "clawonphone/pc-remote",
+                  "clawonphone/auto-watch"
+                ]
+              }
             ]
           },
           {
-            "group": "음성 대화",
-            "pages": [
-              "clawonphone/voice-talk",
-              "clawonphone/session-history",
-              "clawonphone/notifications"
+            "tab": "ClawTalk",
+            "groups": [
+              {
+                "group": "ClawTalk 메신저",
+                "pages": [
+                  "clawtalk/overview",
+                  "clawtalk/friends-chat",
+                  "clawtalk/group-chat",
+                  "clawtalk/media"
+                ]
+              }
             ]
           },
           {
-            "group": "Google Workspace",
-            "pages": [
-              "clawonphone/google-connect",
-              "clawonphone/gmail",
-              "clawonphone/calendar",
-              "clawonphone/files-docs",
-              "clawonphone/contacts-sms",
-              "clawonphone/web-search"
+            "tab": "Veta AI",
+            "groups": [
+              {
+                "group": "Veta AI 봇",
+                "pages": [
+                  "veta/clawtalk-bot",
+                  "veta/telegram",
+                  "veta/commands"
+                ]
+              }
             ]
           },
           {
-            "group": "고급 기능",
-            "pages": [
-              "clawonphone/pc-remote",
-              "clawonphone/auto-watch"
-            ]
-          },
-          {
-            "group": "ClawTalk 메신저",
-            "pages": [
-              "clawtalk/overview",
-              "clawtalk/friends-chat",
-              "clawtalk/group-chat",
-              "clawtalk/media"
-            ]
-          },
-          {
-            "group": "Veta AI 봇",
-            "pages": [
-              "veta/clawtalk-bot",
-              "veta/telegram",
-              "veta/commands"
-            ]
-          },
-          {
-            "group": "계정 관리",
-            "pages": [
-              "account/profile",
-              "account/pricing",
-              "account/faq"
+            "tab": "계정 관리",
+            "groups": [
+              {
+                "group": "계정 관리",
+                "pages": [
+                  "account/profile",
+                  "account/pricing",
+                  "account/faq"
+                ]
+              }
             ]
           }
         ]
       },
       {
         "language": "en",
-        "groups": [
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "en/getting-started/introduction",
-              "en/getting-started/install-pwa",
-              "en/getting-started/first-login"
+            "tab": "ClawOnPhone",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "en/getting-started/introduction",
+                  "en/getting-started/install-pwa",
+                  "en/getting-started/first-login"
+                ]
+              },
+              {
+                "group": "Voice Conversations",
+                "pages": [
+                  "en/clawonphone/voice-talk",
+                  "en/clawonphone/session-history",
+                  "en/clawonphone/notifications"
+                ]
+              },
+              {
+                "group": "Google Workspace",
+                "pages": [
+                  "en/clawonphone/google-connect",
+                  "en/clawonphone/gmail",
+                  "en/clawonphone/calendar",
+                  "en/clawonphone/files-docs",
+                  "en/clawonphone/contacts-sms",
+                  "en/clawonphone/web-search"
+                ]
+              },
+              {
+                "group": "Advanced Features",
+                "pages": [
+                  "en/clawonphone/pc-remote",
+                  "en/clawonphone/auto-watch"
+                ]
+              }
             ]
           },
           {
-            "group": "Voice Conversations",
-            "pages": [
-              "en/clawonphone/voice-talk",
-              "en/clawonphone/session-history",
-              "en/clawonphone/notifications"
+            "tab": "ClawTalk",
+            "groups": [
+              {
+                "group": "ClawTalk Messenger",
+                "pages": [
+                  "en/clawtalk/overview",
+                  "en/clawtalk/friends-chat",
+                  "en/clawtalk/group-chat",
+                  "en/clawtalk/media"
+                ]
+              }
             ]
           },
           {
-            "group": "Google Workspace",
-            "pages": [
-              "en/clawonphone/google-connect",
-              "en/clawonphone/gmail",
-              "en/clawonphone/calendar",
-              "en/clawonphone/files-docs",
-              "en/clawonphone/contacts-sms",
-              "en/clawonphone/web-search"
+            "tab": "Veta AI",
+            "groups": [
+              {
+                "group": "Veta AI Bot",
+                "pages": [
+                  "en/veta/clawtalk-bot",
+                  "en/veta/telegram",
+                  "en/veta/commands"
+                ]
+              }
             ]
           },
           {
-            "group": "Advanced Features",
-            "pages": [
-              "en/clawonphone/pc-remote",
-              "en/clawonphone/auto-watch"
-            ]
-          },
-          {
-            "group": "ClawTalk Messenger",
-            "pages": [
-              "en/clawtalk/overview",
-              "en/clawtalk/friends-chat",
-              "en/clawtalk/group-chat",
-              "en/clawtalk/media"
-            ]
-          },
-          {
-            "group": "Veta AI Bot",
-            "pages": [
-              "en/veta/clawtalk-bot",
-              "en/veta/telegram",
-              "en/veta/commands"
-            ]
-          },
-          {
-            "group": "Account",
-            "pages": [
-              "en/account/profile",
-              "en/account/pricing",
-              "en/account/faq"
+            "tab": "Account",
+            "groups": [
+              {
+                "group": "Account",
+                "pages": [
+                  "en/account/profile",
+                  "en/account/pricing",
+                  "en/account/faq"
+                ]
+              }
             ]
           }
         ]
       },
       {
         "language": "ja",
-        "groups": [
+        "tabs": [
           {
-            "group": "はじめに",
-            "pages": [
-              "ja/getting-started/introduction",
-              "ja/getting-started/install-pwa",
-              "ja/getting-started/first-login"
+            "tab": "ClawOnPhone",
+            "groups": [
+              {
+                "group": "はじめに",
+                "pages": [
+                  "ja/getting-started/introduction",
+                  "ja/getting-started/install-pwa",
+                  "ja/getting-started/first-login"
+                ]
+              },
+              {
+                "group": "音声会話",
+                "pages": [
+                  "ja/clawonphone/voice-talk",
+                  "ja/clawonphone/session-history",
+                  "ja/clawonphone/notifications"
+                ]
+              },
+              {
+                "group": "Google Workspace",
+                "pages": [
+                  "ja/clawonphone/google-connect",
+                  "ja/clawonphone/gmail",
+                  "ja/clawonphone/calendar",
+                  "ja/clawonphone/files-docs",
+                  "ja/clawonphone/contacts-sms",
+                  "ja/clawonphone/web-search"
+                ]
+              },
+              {
+                "group": "高度な機能",
+                "pages": [
+                  "ja/clawonphone/pc-remote",
+                  "ja/clawonphone/auto-watch"
+                ]
+              }
             ]
           },
           {
-            "group": "音声会話",
-            "pages": [
-              "ja/clawonphone/voice-talk",
-              "ja/clawonphone/session-history",
-              "ja/clawonphone/notifications"
+            "tab": "ClawTalk",
+            "groups": [
+              {
+                "group": "ClawTalkメッセンジャー",
+                "pages": [
+                  "ja/clawtalk/overview",
+                  "ja/clawtalk/friends-chat",
+                  "ja/clawtalk/group-chat",
+                  "ja/clawtalk/media"
+                ]
+              }
             ]
           },
           {
-            "group": "Google Workspace",
-            "pages": [
-              "ja/clawonphone/google-connect",
-              "ja/clawonphone/gmail",
-              "ja/clawonphone/calendar",
-              "ja/clawonphone/files-docs",
-              "ja/clawonphone/contacts-sms",
-              "ja/clawonphone/web-search"
+            "tab": "Veta AI",
+            "groups": [
+              {
+                "group": "Veta AI ボット",
+                "pages": [
+                  "ja/veta/clawtalk-bot",
+                  "ja/veta/telegram",
+                  "ja/veta/commands"
+                ]
+              }
             ]
           },
           {
-            "group": "高度な機能",
-            "pages": [
-              "ja/clawonphone/pc-remote",
-              "ja/clawonphone/auto-watch"
-            ]
-          },
-          {
-            "group": "ClawTalkメッセンジャー",
-            "pages": [
-              "ja/clawtalk/overview",
-              "ja/clawtalk/friends-chat",
-              "ja/clawtalk/group-chat",
-              "ja/clawtalk/media"
-            ]
-          },
-          {
-            "group": "Veta AI ボット",
-            "pages": [
-              "ja/veta/clawtalk-bot",
-              "ja/veta/telegram",
-              "ja/veta/commands"
-            ]
-          },
-          {
-            "group": "アカウント管理",
-            "pages": [
-              "ja/account/profile",
-              "ja/account/pricing",
-              "ja/account/faq"
+            "tab": "アカウント",
+            "groups": [
+              {
+                "group": "アカウント管理",
+                "pages": [
+                  "ja/account/profile",
+                  "ja/account/pricing",
+                  "ja/account/faq"
+                ]
+              }
             ]
           }
         ]
