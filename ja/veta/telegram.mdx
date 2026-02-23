@@ -1,0 +1,68 @@
+---
+title: "Telegram連携"
+description: "TelegramでClawOnPhone AIボットを接続して使用する方法をご案内します。"
+---
+
+## TelegramでもVetaをご利用いただけます
+
+もしすでにTelegramをお使いなら、他のメッセンジャーに乗り換える必要なくTelegram上で直接Veta AIボットを利用できます。
+
+Telegramは、世界中で広く利用されている無料のメッセージアプリです。App StoreやPlay Storeで「Telegram」と検索してインストールできます。
+
+## Telegramの連携方法
+
+ClawOnPhoneアカウントとTelegramを連携する5つの手順です。
+
+<Steps>
+  <Step title="Telegramでボットを検索">
+    Telegramアプリを開き、上部の検索バーに**@clawOnPhoneBot**と入力して検索します。検索結果から「ClawOnPhone Bot」を選択してください。
+  </Step>
+  <Step title="「/start」コマンドを入力">
+    ボットのチャットルームに入ると、下部に**Start**ボタンが表示されます。ボタンを押すか、直接**/start**と入力してください。ボットから歓迎メッセージとペアリングの案内が届きます。
+  </Step>
+  <Step title="ClawOnPhoneでペアリングコードを生成">
+    ClawOnPhone PWAアプリを開き、画面上の**TGボタン**を押してください。6桁のペアリングコードが生成されます。このコードの有効期限は5分間です。
+  </Step>
+  <Step title="Telegramでペアリングコードを入力">
+    TelegramのClawOnPhone Botのトーク画面に戻り、**/pair （6桁のコード）**を入力します。たとえば、コードがA3B7K9の場合、**/pair A3B7K9**と入力します。
+  </Step>
+  <Step title="連携完了">
+    「接続が完了しました」というメッセージが表示されれば成功です。これでTelegram上から直接Vetaにメッセージを送信できるようになります。
+  </Step>
+</Steps>
+
+## 使用方法
+
+接続が完了したら、Telegram上のClawOnPhone Botチャットルームで**自然な言葉でメッセージ**を送信するだけです。
+
+ClawTalkでVetaに話しかけるのと同じように利用できます。「今日のスケジュールを教えて」や「未読メールの確認をして」など、普段どおりの言葉で入力してください。
+
+Vetaがリクエストを処理する間少々お待ちいただければ、結果をテキストで返信してくれます。
+
+## 主なコマンド
+
+<CardGroup cols={2}>
+  <Card title="/start" icon="play">
+    ボットを初めて起動する際に使用します。歓迎メッセージと利用案内が届きます。
+  </Card>
+  <Card title="/pair [コード]" icon="link">
+    ClawOnPhoneのアカウントとTelegramを連携させる際に使用します。ClawOnPhoneアプリで発行されたペアリングコードと一緒に入力します。
+  </Card>
+  <Card title="/status" icon="circle-check">
+    現在の接続状態を確認します。自分のアカウントが正しく連携されているかを確かめる時に使ってください。
+  </Card>
+  <Card title="/help" icon="circle-question">
+    使用可能なコマンドのリストとヘルプを表示します。
+  </Card>
+  <Card title="/clear" icon="rotate">
+    会話の記録を初期化します。Vetaが過去の会話履歴を忘れて、新しい会話をスタートします。
+  </Card>
+</CardGroup>
+
+<Note>
+  TelegramでGoogle関連ツール（メール、スケジュール、ファイル等）を使用するには、事前に**ClawOnPhoneアプリ**でGoogleアカウントを連携しておく必要があります。ClawOnPhoneを開いて、画面の**Gボタン**を押して連携を行ってください。
+</Note>
+
+<Tip>
+  Telegramの連携作業は初回に1度行えば完了します。その後はTelegramを開いて、すぐにClawOnPhone Botへメッセージを送信するだけです。
+</Tip>
